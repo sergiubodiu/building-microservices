@@ -4,18 +4,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>livelessons</groupId>
-		<artifactId>livelessons-parent</artifactId>
+		<artifactId>livelessons-testing</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
-		<relativePath>../livelessons-parent</relativePath>
 	</parent>
-	<artifactId>livelessons-testing</artifactId>
+	<artifactId>livelessons-testing-cdc</artifactId>
 	<packaging>pom</packaging>
-	<properties>
-		<main.basedir>..</main.basedir>
-	</properties>
 	<modules>
-		<module>livelessons-testing-spring</module>
-		<module>livelessons-testing-wiremock</module>
-		<module>livelessons-testing-cdc</module>
+		<module>livelessons-testing-cdc-client</module>
+		<module>livelessons-testing-cdc-server</module>
 	</modules>
 </project>
