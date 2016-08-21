@@ -15,5 +15,6 @@
 	</properties>
 	<modules>
 		<module>livelessons-testing-spring</module>
+		<module>livelessons-testing-wiremock</module>
 	</modules>
 </project>
