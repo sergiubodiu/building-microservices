@@ -1,0 +1,11 @@
+# Auto-configuration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.example.autoconfigure.modelmapper.ModelMapperAutoConfiguration
+
+# Listeners
+org.springframework.context.ApplicationListener=\
+com.example.autoconfigure.listener.ExampleApplicationListener
+
+# Initializers
+org.springframework.context.ApplicationContextInitializer=\
+com.example.autoconfigure.initializer.ExampleApplicationContextInitializer

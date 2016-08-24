@@ -19,7 +19,7 @@
 		<module>livelessons-web</module>
 		<module>livelessons-security</module>
 		<module>livelessons-testing</module>
-		<module>livelessons-extending-spring-boot</module>
+		<module>livelessons-extending</module>
 		<module>livelessons-ide-and-tooling</module>
 	</modules>
 </project>
