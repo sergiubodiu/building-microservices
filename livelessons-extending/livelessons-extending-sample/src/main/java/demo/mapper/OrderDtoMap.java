@@ -27,6 +27,7 @@ public class OrderDtoMap extends PropertyMap<Order, OrderDto> {
 	protected void configure() {
 		map().setBillingStreet(this.source.getBillingAddress().getStreet());
 		map().setBillingCity("REDACTED");
+		// Uncomment this to cause failure: map().setBillingCity("Will break");
 	}
 
 }

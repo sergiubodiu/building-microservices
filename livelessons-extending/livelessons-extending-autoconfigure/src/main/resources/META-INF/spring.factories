@@ -9,3 +9,7 @@ com.example.autoconfigure.listener.ExampleApplicationListener
 # Initializers
 org.springframework.context.ApplicationContextInitializer=\
 com.example.autoconfigure.initializer.ExampleApplicationContextInitializer
+
+# Failure Analyzers
+org.springframework.boot.diagnostics.FailureAnalyzer=\
+com.example.autoconfigure.failureanalyzer.ModelMapConfigurationFailureAnalyzer
