@@ -14,5 +14,6 @@
 		<main.basedir>..</main.basedir>
 	</properties>
 	<modules>
+		<module>livelessons-ide-and-tooling-devtools</module>
 	</modules>
 </project>
