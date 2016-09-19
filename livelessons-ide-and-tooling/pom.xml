@@ -15,5 +15,6 @@
 	</properties>
 	<modules>
 		<module>livelessons-ide-and-tooling-devtools</module>
+		<module>livelessons-ide-and-tooling-metadata</module>
 	</modules>
 </project>
